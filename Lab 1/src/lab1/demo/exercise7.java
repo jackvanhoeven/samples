@@ -10,7 +10,7 @@ public class exercise7 {
 	     weight = sc.nextDouble();
 	     marsWeight = (weight/9.81)*3.711;
 	     
-	     System.out.println("Weight on earth: " +weight + "kg");
-         System.out.println("Weight on mars: " +String.format("%.2f", marsWeight ) + "kg");
+	     System.out.println("Your weight on earth: " +weight + "kg");
+         System.out.println("Your weight on mars: " +String.format("%.2f", marsWeight ) + "kg");
 	}
 }
