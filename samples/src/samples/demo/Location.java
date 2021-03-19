@@ -4,7 +4,7 @@ public class Location {
 
 	private String locationName;
 	private int locationID;
-	private double area;
+	
 	
 	public String getLocationName(){
 		return locationName;
@@ -22,12 +22,5 @@ public class Location {
 		this.locationID= locationID;
 	}
 	
-	public double getArea(){
-		return area;
-	}
-	
-	public void setArea(double area) {
-		this.area= area;
-	}
 	
 } 
